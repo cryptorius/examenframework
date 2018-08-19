@@ -11,53 +11,77 @@
 		<meta name="keywords" content="HTML5, framework bootstrap">
     <!-- Incluyo un archivo para personalizar el sitio -->
     <link type="text/css" rel="stylesheet" href="src/css/estilo_minna_manicure.css">
-    <!-- foundation icons -->
-    <link rel="stylesheet" href="src/framework/foundation-icons.css">
     <!-- framework bootstrap -->
     <link type="text/css" rel="stylesheet" href="src/framework/bootstrap.min.css" media="screen,projection">
-    <title>Blog de Minna Manicure</title>
+
+    <!-- bootstrap icons-->
+    <link href="src/css/bootstrap.css" rel="stylesheet">
+    <link href="src/css/font-awesome.css" rel="stylesheet">
+    <link href="src/css/docs.css" rel="stylesheet" >
+
+    <!-- bootstrap social icons-->
+    <link type="text/css" rel="stylesheet" href="src/framework/bootstrap-social.css">
+
+    <title>Blog de Musica</title>
 
   </head>
   <body>
-<header>
 
-</header>
-<nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <header>
+  <!-- genero el contenedor grid de bootstrap -->
+    <div class="row">
+      <!-- comienza los iconos de redes sociales, vale aclarar que en la teoria dice de este lado y en la imagen ejemplo dice del otro lado  -->
+      <div class="col-sm-7 col-md-4 col-lg-3 btn-toolbar">
+        <!-- genero un la lista de las redes sociales  -->
+        <ul class="list-inline list-bottom" style="margin-left:6%;">
+          <li><a class="btn btn-social-icon btn-facebook rounded-circle socialbox"><i class="fa fa-facebook"></i>
+          </a></li>
+          <li><a class="btn btn-social-icon btn-twitter rounded-circle socialbox"><i class="fa fa-twitter"></i>
+          </a></li>
+          <li><a class="btn btn-social-icon btn-google rounded-circle socialbox"><i class="fa fa-google"></i>
+          </a></li>
+        </ul>
+      </div>
+        <!-- comienza el grupo final con los offset colocando la imagen de lado derecho como dice la teoria y la imagen de ejemplo dice del otro lado -->
+      <div class="col-sm-3 offset-sm-1 col-md-4 offset-md-4 col-lg-3 offset-lg-6">
+        <img class="img-responsive img-rounded boxlight" src="src/img/arbolmusical.png" alt="logo del blog" style="margin:10px 0px;">
+      </div>
+      <!-- fin del row -->
+    </div>
+    <!-- fin del contenedor -->
+  </header>
+  <nav class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
+    <!-- genero el boton para pantallas chicas -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar">search</span>
-        <span class="icon-bar">uniF120</span>
-        <span class="icon-bar">photo</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">asd</a>
+      <a class="navbar-brand visible-xs" href="#">Menu</a>
     </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
+    <!-- se agrega la lista para el menu -->
     <div class="collapse navbar-collapse" id="navbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">corto</a></li>
-
+      <ul class="nav nav-pills nav-icons offset-lg-2">
+        <li><a href="#"><span class="glyphicon glyphicon-cd"></span>Inicio</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-bookmark"></span>Artistas</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-book"></span>Grupos</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-star"></span>top 10</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-edit"></span>Letras</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-headphones"></span>Acordes</a></li>
       </ul>
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">asdddd</a></li>
-
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+    </div><!-- fin de la lista del menu -->
+  </div><!-- fin del contenedor del boton -->
 </nav>
+</div>
+
+
 
     <!-- jQuery  -->
-    <script type="text/javascript" src="src/framework/jquery-3.3.1.min.js"></script>
-    <!-- incluyo el javascrip para framework materialize -->
-    <script type="text/javascript" src="src/framework/bootstrap.min.js"></script>
+    <script type="text/javascript" src="src/js/jquery-3.3.1.min.js"></script>
+    <!-- incluyo el javascrip para framework bootstrap -->
+    <script type="text/javascript" src="src/js/bootstrap.min.js"></script>
   </body>
 </html>

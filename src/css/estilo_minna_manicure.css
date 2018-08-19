@@ -1,0 +1,17 @@
+
+/* agrego a la class list-inline, la de alinaccion bottom a lo hecho por Bootstrap */
+.list-inline.list-bottom{margin-top: auto;}
+/* se agrega sombra a los iconos de redes sociales */
+.btn.socialbox {box-shadow: 5px 4px 8px -3px black;}
+/* se agrega un fondo para el header */
+header div {background-image: url("../img/sonido.png");
+            background-size: 100px, 100px;
+            background-color: rgba(178,178,178,0.2);
+            border-radius: 15px;
+            }
+/* se agrega un fondo para la imagen del header para separarla del fondo */
+.boxlight {box-shadow: 3px -1px 4px 2px !important;
+           background-color: rgba(255,255,255,0.2);
+            }
+/* se agrega una opcion para separar los iconos del texto */
+.nav-icons li span{padding-right: 6px;}
