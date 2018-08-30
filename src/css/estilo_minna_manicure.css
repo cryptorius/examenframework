@@ -1,17 +1,63 @@
-
+/* se agrega color al fondo*/
+body {
+  background-color: coral !important;
+}
 /* agrego a la class list-inline, la de alinaccion bottom a lo hecho por Bootstrap */
-.list-inline.list-bottom{margin-top: auto;}
+.list-inline.list-bottom{ margin-top: auto;}
 /* se agrega sombra a los iconos de redes sociales */
-.btn.socialbox {box-shadow: 5px 4px 8px -3px black;}
+.btn.socialbox {box-shadow: 5px 4px 8px -3px black;
+                margin-top: 10px;}
 /* se agrega un fondo para el header */
 header div {background-image: url("../img/sonido.png");
             background-size: 100px, 100px;
             background-color: rgba(178,178,178,0.2);
-            border-radius: 15px;
-            }
+            border-radius: 15px;}
 /* se agrega un fondo para la imagen del header para separarla del fondo */
 .boxlight {box-shadow: 3px -1px 4px 2px !important;
-           background-color: rgba(255,255,255,0.2);
-            }
+           background-color: rgba(255,255,255,0.2);}
+/* se agrega al navegador el tamaño deseado*/
+.nav-pills li {
+  font-size: 1.6em;
+}
 /* se agrega una opcion para separar los iconos del texto */
 .nav-icons li span{padding-right: 6px;}
+/* acomodo la foto del lado derecho en los numeros pares */
+img.secimp {float: left;
+            margin: auto 10px 0px 0px;
+            height: auto;}
+img.secpar {float: right;
+            margin: auto 0px 0px 10px;
+            height: auto;}
+/* busca el input de comentarios y lo acomoda*/
+input[id*="comentarios"] {
+  border-radius: 20px;
+  margin-left: 0px;}
+  /* el titulo del buscador lo centra*/
+aside div div h3[class*="panel-title"]{
+  text-align: center;
+}
+/* se quita los margen para que se vea como el video de ejemplo*/
+.ceromargen{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+/*se le da un estilo para resaltar*/
+.panel-heading {
+  color: white !important;
+  text-transform: capitalize;
+  letter-spacing: 5px;
+  background-color: gray !important;
+  border-radius: 0px 0px 20px 20px;
+}
+/*se cambia el color de fondo de los panel footer*/
+.panel-footer {
+  background-color: #096f5d !important;
+}
+/*solo en las pantallas de pc se ve el help-block y color blanco*/
+.help-block {
+  color: white !important;
+}
+/*se agrega un boton mas grande asi queda del mismo tamaño del input*/
+.btn-lgx{padding:.5rem 1rem;font-size:3.25rem;line-height:1.5;border-radius:.3rem; margin-top: 17%;}

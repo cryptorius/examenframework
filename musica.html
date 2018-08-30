@@ -64,7 +64,7 @@
     </div>
     <!-- se agrega la lista para el menu -->
     <div class="collapse navbar-collapse" id="navbar">
-      <ul class="nav nav-pills nav-icons offset-lg-2">
+      <ul class="nav nav-pills nav-icons offset-lg-1">
         <li><a href="#"><span class="glyphicon glyphicon-cd"></span>Inicio</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-bookmark"></span>Artistas</a></li>
         <li><a href="#"><span class="glyphicon glyphicon-book"></span>Grupos</a></li>
@@ -75,8 +75,117 @@
     </div><!-- fin de la lista del menu -->
   </div><!-- fin del contenedor del boton -->
 </nav>
-</div>
+<div class="row">
 
+  <!-- comienza la parte del seccion y lo limito con el div -->
+<div class="col-sm-10 col-md-7 col-lg-8 ceromargen">
+  <section>
+    <article>
+        <!-- se hace un panel para contener la info -->
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <h3 class="panel-title">Cancion de una balada 1</h3>
+        </div>
+        <div class="panel-body">
+          <img class="img-responsive img-rounded secimp" src="src/img/partitura.png" alt="partitura" style="width: 150px;">
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="panel-footer">
+            <!-- se agrega en el panel footer el lugar para agregar comentarios -->
+          <form role="form">
+            <!-- se agrega un grid para aliniar el icono con el input y help-block -->
+          <div class="row">
+            <div class="col-xs-1 col-md-1 col-lg-1">
+              <!-- se agrega el icono -->
+              <label for="comentarios">
+                <a href="musica.html"><span class="glyphicon glyphicon-user btn-lgx"></span></a>
+                </label>
+            </div>
+            <div class="col-xs-10 col-md-10 col-lg-9" style="margin: auto;">
+              <!-- se agrega el input de comentarios -->
+              <input type="text" class="form-control" id="comentarios" placeholder="ingrese su comentario" style="margin-left:12px;">
+            </div>
+            <div class="col-xs-1 col-md-1 col-lg-2">
+              <!--se agrega el help-block solo para pc -->
+            <p class="help-block visible-lg">ingrese su comentario.</p>
+            </div>
+          </div>
+          <!-- finaliza el formulario -->
+          </form>
+        </div>
+      </div>
+    </article>
+    <article>
+      <!-- se hace un panel para contener la info -->
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <h3 class="panel-title">Cancion de una balada 2</h3>
+        </div>
+        <div class="panel-body">
+          <img class="img-responsive img-rounded secpar" src="src/img/partitura.png" alt="partitura" style="width: 150px;">
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+         </div>
+        <div class="panel-footer">
+              <!-- se agrega en el panel footer el lugar para agregar comentarios -->
+            <form role="form">
+              <!-- se agrega un grid para aliniar el icono con el input y help-block -->
+            <div class="row">
+              <div class="col-xs-1 col-md-1 col-lg-1">
+                <!-- se agrega el icono -->
+                <label for="comentarios">
+                  <a href="musica.html"><span class="glyphicon glyphicon-user btn-lgx"></span></a>
+                  </label>
+              </div>
+              <div class="col-xs-10 col-md-10 col-lg-9" style="margin: auto;">
+                <!-- se agrega el input de comentarios -->
+                <input type="text" class="form-control" id="comentarios2" placeholder="ingrese su comentario" style="margin-left:12px;">
+              </div>
+              <div class="col-xs-1 col-md-1 col-lg-2">
+                <!--se agrega el help-block solo para pc -->
+              <p class="help-block visible-lg">ingrese su comentario.</p>
+              </div>
+            </div>
+            <!-- finaliza el formulario -->
+            </form>
+        </div>
+      </div>
+    </article>
+  </section>
+</div>
+<!-- comienza el sector del buscador -->
+<div class="col-sm-8 col-md-5 col-lg-4 ceromargen">
+  <aside style="height:100%;">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Buscador</h3>
+    </div>
+    <div class="panel-body">
+      <div class="form-group form-inline">
+      <label for="buscador">
+        <a href="#"><span class="glyphicon glyphicon-search btn-lg"></span></a>
+        </label>
+        <input type="text" class="form-control input-lg" id="buscador" placeholder="buscar" style="margin-left:0px;">
+      </div>
+    </div>
+    <div class="panel-footer">
+          <ul class="list-group">
+            <li class="list-group-item"><a href="#">autores</a><span class="badge">100</span></li>
+            <li class="list-group-item"><a href="#">canciones</a><span class="badge">200</span></li>
+            <li class="list-group-item"><a href="#">opciones</a><span class="badge">10</span></li>
+            <li class="list-group-item"><a href="#">opciones</a><span class="badge">30</span></li>
+            <li class="list-group-item"><a href="#">opciones</a><span class="badge">20</span></li>
+          </ul>
+    </div>
+  </div>
+  </aside>
+<hr style="border:none;">
+</div>
+<!-- fin del row -->
+</div>
+<!-- fin del cuerpo -->
+</div>
 
 
     <!-- jQuery  -->
