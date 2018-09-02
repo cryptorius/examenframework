@@ -1,0 +1,112 @@
+body {
+  background-image: url(../img/fondo.jpg);
+  background-size: cover;
+}
+
+header .row {
+  border-radius: 30px 30px 0px 0px;
+  margin-top: 4px;
+  background-color: rgba(22, 24, 77, 0.4);
+}
+
+/* agrego una linea en la base para el titulo*/
+header div {
+  border-bottom: 2px groove gray;
+}
+/* modifico el titulo del header*/
+header h1 {
+  text-shadow: 3px 3px 4px white;
+  color: gray;
+}
+
+/* se agrega esto para separar el lugar del titulo del restro del sector */
+nav, header div div:first-child {
+  border-right: 2px solid gray;
+}
+/* se lo separa de la derecha un margen para que se paresca al video*/
+.subtitulo {
+  margin-left: 45%;
+  text-shadow: 0px 0px 3px white;
+  color: rgb(22, 24, 77);
+}
+nav, section {
+  padding: 9px;
+  background-color: rgba(22, 24, 77, 0.8);
+}
+
+.offpadding {
+    padding: 0px;
+}
+
+.blockfav h6,.blockhist h6, .blockhist li{
+  padding-left: 6px;
+  font-weight: bold;
+  text-transform: capitalize;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.thumbnail {
+  border-width: 2px !important;
+}
+
+.buscador {
+  margin-top: 4px;
+}
+.buscador form input {
+  border-radius: 30px;
+  box-shadow: 0px 0px 9px white;
+}
+.blockhist li {
+  background-color: inherit;
+  margin-left: 20px;
+  text-shadow: 1px 1px 0px white,-1px -1px 2px white;
+  }
+
+.links {
+  display: grid !important;
+}
+.links .button {
+  background-color: unset !important;
+  border: 2px solid gray;
+  border-radius: 20px;
+}
+.imgexpand {
+  width: 100%;
+}
+.noticia {
+    background-color: rgba(22, 24, 77, 1);
+}
+.noticia header, .noticia footer {
+  padding-left: 6px;
+  text-transform: capitalize;
+  color:gray;
+  }
+.noticia p {
+  color: white;
+padding-left: 4px;
+}
+input[name*="comentario"] {
+  margin: auto 0px;
+}
+footer label{
+  line-height: 1;
+  margin-bottom: 10px;
+}
+.adap {
+  margin-bottom: 0px !important;
+  margin-left: 10px;
+  max-width: 6.5em;
+  margin-right: 20px;
+}
+footer .usercomentario {
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.thumbnail.user img{
+  border-radius: 50%;
+  width: 70px;
+  height: auto;
+}
+.thumbnail {
+  border: none !important;
+}

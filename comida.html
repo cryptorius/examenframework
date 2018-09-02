@@ -1,24 +1,217 @@
 <!DOCTYPE html>
 <!-- codificando en codigos html5  -->
-
 <html lang="es">
   <!-- comienza el head -->
   <head>
-    <meta charset="utf-8, iso-8859-1">
+    <meta charset="iso-8859-1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.1, user-scalable=no">
     <meta name="author" content="Ponce, fernando gaston">
 		<meta name="description" content="index el examen fue realizado con el programa ATOM, siguiendo lo indicado en el examen">
 		<meta name="keywords" content="HTML5, framework foundation">
-    <!-- Incluyo un archivo para personalizar el sitio -->
-    <link type="text/css" rel="stylesheet" href="src/css/estilo_minna_manicure.css">
     <!-- framework foundation -->
     <link type="text/css" rel="stylesheet" href="src/framework/foundation.min.css" media="screen,projection">
-    <title>Blog de Minna Manicure</title>
+    <link type="text/css" rel="stylesheet" href="src/framework/foundation-icons.css">
+    <!-- Incluyo un archivo para personalizar el sitio -->
+    <link type="text/css" rel="stylesheet" href="src/css/app.css" media="all">
+    <link type="text/css" rel="stylesheet" href="src/css/estilo_bahia.css" media="all">
+<script>
+  $(document).foundation();
+</script>
+
+    <title>Blog de Bahia comidas</title>
 
   </head>
   <body>
+    <div class="container">
+      <header>
+    <!-- genero el contenedor grid de bootstrap -->
+      <div class="row">
+        <!-- comineza el titulo de la paguina  -->
+        <div class="small-12 medium-6 large-5 columns">
+          <h1>Bahia comidas</h1>
+            <h3 class="subtitulo">sabores que te hacen viajar</h3>
+        </div>
+          <!-- comienza el grupo final con los offset colocando la imagen de lado derecho como dice la teoria y la imagen de ejemplo dice del otro lado -->
+        <div class="small-12 medium-6 large-7 columns">
+        </div>
+        <!-- fin del row -->
+      </div>
+      <!-- fin del header -->
+    </header>
+    <!-- fin del header -->
+<div class="row">
+  <!-- comienza el row para las columnas -->
+<div class="small-12 medium-6 large-5 columns offpadding">
+  <!-- comienza el primer el navegador lateral  -->
+<nav>
+  <!-- comienza la barra del buscador -->
+  <div class="buscador">
+    <form>
+            <div class="grid-x grid-padding-x">
+              <div class="large-12 cell">
+                <input type="text" placeholder="buscar" />
+              </div>
+            </div>
+    </form>
+  </div>
+  <div class="button-group links">
+    <a class="expanded button" href="#">inicio</a>
+    <a class="expanded button" href="#">recestas</a>
+    <a class="expanded button" href="#">materiales</a>
+</div>
+<div class="blockfav">
+<!-- comienza el bloque de favoritos -->
+  <h6>favoritos :</h6>
+  <div class="row">
+    <!-- es donde esta el menu base -->
+    <div class="small-4 columns">
+      <img class="thumbnail" src="src/img/opcomida1.jpg" alt="minicomida1">
+    </div>
+    <div class="small-4 columns">
+      <img class="thumbnail" src="src/img/opcomida1.jpg" alt="minicomida1">
+    </div>
+    <div class="small-4 columns">
+      <img class="thumbnail" src="src/img/opcomida2.jpg" alt="minicomida2">
+    </div>
+    <div class="small-4 columns">
+      <img class="thumbnail" src="src/img/opcomida2.jpg" alt="minicomida2">
+    </div>
+    <div class="small-4 columns">
+      <img class="thumbnail" src="src/img/opcomida2.jpg" alt="minicomida2">
+    </div>
+    <div class="small-4 columns">
+      <img class="thumbnail" src="src/img/opcomida1.jpg" alt="minicomida1">
+    </div>
+  </div>
+</div>
+<!-- fin del bloque de favoritos -->
+<!-- comienza el bloque de favoritos -->
+<div class="blockhist">
+  <h6>historial :</h6>
+    <!-- es donde esta el menu base -->
+      <ul class="menu vertical">
+        <li>ultima</li>
+        <li>anterior</li>
+        <li>otra</li>
+        <li>portrait</li>
+        <li>test</li>
+      </ul>
+
+</div>
+<!-- fin del bloque de favoritos -->
+
+</nav>
+<!-- fin del navegador -->
+</div>
+<!-- fin de la barra lateral -->
+<div class="small-12 medium-6 large-7 columns offpadding">
+<section>
+  <article class="noticia">
+    <header><h3>tortafritas</h3>
+    <small>23 de abril de 2018</small></header>
+    <img src="src/img/comida1.jpg" alt="comida1" class="thumbnail imgexpand">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <footer><label for="comentario">
+        <form>
+                  <div class="row">
+                    <span><i class="fi-torso size-48 large-4 columns"></i></span>
+                    <input type="text" placeholder="comentar" name="comentario" class="large-8 columns" />
+                    <button type="button" name="button" class="button columns adap">enviar</button>
+                  </div>
+            </form>
+      </label>
+
+    <div class="media-object usercomentario">
+      <div class="media-object-section">
+        <div class="thumbnail user align-left">
+          <img src="src/img/avatar.jpg" alt="avatar de usuario">
+        </div>
+      </div>
+      <div class="media-object-section">
+        <p>I'm going to improvise. Listen, there's something you should know about me... </p>
+      </div>
+    </div>
+    <div class="media-object usercomentario">
+      <div class="media-object-section">
+        <p>I'm going to improvise. Listen, there's something you should know about me... </p>
+      </div>
+      <div class="media-object-section">
+        <div class="thumbnail user">
+          <img src="src/img/avatar.jpg" alt="avatar de usuario">
+        </div>
+      </div>
+    </div>
+    <div class="media-object usercomentario">
+      <div class="media-object-section">
+        <div class="thumbnail user align-left">
+          <img src="src/img/avatar.jpg" alt="avatar de usuario">
+        </div>
+      </div>
+      <div class="media-object-section">
+        <p>I'm going to improvise. Listen, there's something you should know about me... </p>
+      </div>
+    </div>
+
+    </footer>
+
+  </article>  <article class="noticia">
+      <header><h3>Comida a la parrilla</h3>
+      <small>22 de abril de 2018</small></header>
+      <img src="src/img/comida2.jpg" alt="comida1" class="thumbnail imgexpand">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <footer><label for="comentario">
+          <form>
+                    <div class="row">
+                      <span><i class="fi-torso size-48 large-4 columns"></i></span>
+                      <input type="text" placeholder="comentar" name="comentario" class="large-8 columns" />
+                      <button type="button" name="button" class="button columns adap">enviar</button>
+                    </div>
+              </form>
+        </label>
+
+      <div class="media-object usercomentario">
+        <div class="media-object-section">
+          <div class="thumbnail user align-left">
+            <img src="src/img/avatar.jpg" alt="avatar de usuario">
+          </div>
+        </div>
+        <div class="media-object-section">
+          <p>I'm going to improvise. Listen, there's something you should know about me... </p>
+        </div>
+      </div>
+      <div class="media-object usercomentario">
+        <div class="media-object-section">
+          <p>I'm going to improvise. Listen, there's something you should know about me... </p>
+        </div>
+        <div class="media-object-section">
+          <div class="thumbnail user">
+            <img src="src/img/avatar.jpg" alt="avatar de usuario">
+          </div>
+        </div>
+      </div>
+      <div class="media-object usercomentario">
+        <div class="media-object-section">
+          <div class="thumbnail user align-left">
+            <img src="src/img/avatar.jpg" alt="avatar de usuario">
+          </div>
+        </div>
+        <div class="media-object-section">
+          <p>I'm going to improvise. Listen, there's something you should know about me... </p>
+        </div>
+      </div>
+
+      </footer>
+
+    </article>
+</section>
+</div>
+<!-- fin del cuerpo -->
+  </div>
+  <!-- fin del row -->
 
 
+
+</div>
     <!-- jQuery  -->
     <script type="text/javascript" src="src/framework/jquery-3.3.1.min.js"></script>
     <!-- incluyo el javascrip para framework materialize -->
