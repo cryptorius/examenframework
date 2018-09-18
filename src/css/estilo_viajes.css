@@ -1,0 +1,32 @@
+body {
+  background-image: url("../img/fondoviaje.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container { width: 85% !important;}
+
+.nav-reset {
+  margin-top: 10px;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.rounded{border-radius:24px};
+.set { height: auto;}
+.estable li { margin-right: 10px;}
+.estable li a { display: flex; margin: -15px -5px;}
+.estable li a strong { margin-left: 10px;}
+
+.social {display: inline-block;}
+.social li {margin: 6px;}
+.social li a i {width: 45px;}
+
+.card-5 {
+  border-radius:6px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.expa-text {
+  text-align: justify;
+}

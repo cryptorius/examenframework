@@ -1,9 +1,10 @@
+
 /* se agrega color al fondo*/
 body {
   background-color: coral !important;
 }
 /* agrego a la class list-inline, la de alinaccion bottom a lo hecho por Bootstrap */
-.list-inline.list-bottom{ margin-top: auto;}
+.list-bottom{ margin-top: 100% !important;}
 /* se agrega sombra a los iconos de redes sociales */
 .btn.socialbox {box-shadow: 5px 4px 8px -3px black;
                 margin-top: 10px;}
@@ -61,3 +62,12 @@ aside div div h3[class*="panel-title"]{
 }
 /*se agrega un boton mas grande asi queda del mismo tamaño del input*/
 .btn-lgx{padding:.5rem 1rem;font-size:3.25rem;line-height:1.5;border-radius:.3rem; margin-top: 17%;}
+
+@media (max-width:575px) {
+  .list-bottom{margin-top: 0px !important;}
+}
+@media (max-width:768px) {
+  .list-bottom {
+        width: 145px;
+  }
+}
